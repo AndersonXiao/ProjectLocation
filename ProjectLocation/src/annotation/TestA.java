@@ -2,7 +2,7 @@ package annotation;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.TYPE , ElementType.METHOD})
+@Target({ElementType.TYPE , ElementType.METHOD,ElementType.TYPE_USE,ElementType.TYPE_PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited

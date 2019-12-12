@@ -7,16 +7,16 @@ import com.basic.U4;
 import java.io.InputStream;
 import java.util.List;
 
-public class RuntimeVisibleAnnotations extends AttributeAbstract {
-
+public class RuntimeInvisibleAnnotations extends AttributeAbstract{
     public U2 numAnnotation;
     public Annotation[] annotations;
-    public RuntimeVisibleAnnotations(InputStream inputStream) throws Exception {
+    public RuntimeInvisibleAnnotations(InputStream inputStream) throws Exception {
         this.attributeNameIndex = new U2(inputStream);
         this.attributeLength = new U4(inputStream);
         numAnnotation = new U2(inputStream);
         annotations = new Annotation[numAnnotation.getShortS()];
         //初始化字段注解数组
+
 
 
     }
@@ -25,5 +25,4 @@ public class RuntimeVisibleAnnotations extends AttributeAbstract {
 
         return null;
     }
-
 }

@@ -1,18 +1,22 @@
 package annotation;
 
+import com.annotation.Annotation;
+import com.basic.U2;
+import com.xzc.Binary.BinaryGenerate;
+
 @TestA
 public class AnnotationTest {
 
     private String name;
     public AnnotationTest(){}
-    public AnnotationTest(String name){
+    public AnnotationTest( String  name){
         this.name = name;
     }
     @TestA(xzc = "xzc")
     public void Hello(){
         System.out.println("Hello Annotation!");
     }
-    
+
     @TestA(xzk = "xzk")
     public String findName(){
 

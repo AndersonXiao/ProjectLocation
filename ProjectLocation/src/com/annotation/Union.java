@@ -2,6 +2,8 @@ package com.annotation;
 
 import com.basic.U2;
 
+import java.io.InputStream;
+
 public class Union {
     /*
         包括8种基本类型和String类型
@@ -23,4 +25,12 @@ public class Union {
         数组类型
      */
     public ArrayValue arrayValue;
+
+    public Union(InputStream inputStream) throws Exception {
+        constValueIndex = new U2(inputStream);
+        enumConstValue = new EnumConstValue(inputStream);
+        classInfoIndex = new U2(inputStream);
+        annotationValue = new Annotation(inputStream);
+        arrayValue = new ArrayValue(inputStream);
+    }
 }

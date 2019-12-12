@@ -11,5 +11,9 @@ public class Annotation {
                 typeindex = new U2(inputStream);
                 numElementValuePairs = new U2(inputStream);
                 elementValuePairs = new ElementValuePairs[numElementValuePairs.getShortS()];
+                //这里进行数组初始化
+
+
+
         }
 }
