@@ -2,6 +2,8 @@ package com.structure;
 
 
 
+import annotation.TestA;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -38,5 +40,11 @@ public class ClassReader {
 
 
     }
+    @TestA
+    public void String(){
+
+        System.out.println("我特么草泥马");
+    }
+
 
 }

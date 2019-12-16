@@ -36,9 +36,17 @@ public class ClassStructure{
         minor_version = new U2(inputStream);
         major_version = new U2(inputStream);
         constant_pool_count = new U2(inputStream);
-        constant_pool = new CP_InfoAbstract[constant_pool_count.getShortS()-1];
-        for(int i=0;i<constant_pool.length;i++){
-            constant_pool[i] = initConstantool(inputStream, path, (long)dataLength);
+        constant_pool = new CP_InfoAbstract[constant_pool_count.getShortS()];
+        for(int i=1;i<constant_pool.length;i++){
+
+            CP_InfoAbstract cp = initConstantool(inputStream, path, (long)dataLength);
+            //Long和Double占用了常量池的两项
+            if(cp instanceof LongInfo || cp instanceof DoubleInfo){
+                constant_pool[i] = cp;
+                i = i + 1;
+            }else{
+                constant_pool[i] = cp;
+            }
             dataLength = getDataLength(constant_pool);
         }
         access_flags = new U2(inputStream);
