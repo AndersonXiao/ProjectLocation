@@ -1,9 +1,9 @@
 package com.com.constantpool;
 
-import com.xzc.Binary.BinaryGenerate;
+
 import com.basic.U1;
 import com.basic.U2;
-import com.basic.dataCellPrint;
+
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -24,7 +24,7 @@ public class Utf8Info extends CP_InfoAbstract {
         }
         UtfDataLength len = UtfDataLength.getInstance();
         len.setDataLength(bytes.length + 3);
-        System.out.println(len.getDataLength());
+        //System.out.println(len.getDataLength());
 
     }
 

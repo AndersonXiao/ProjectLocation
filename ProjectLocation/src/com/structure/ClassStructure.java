@@ -13,7 +13,6 @@ import java.util.List;
 
 public class ClassStructure{
 
-
     public U4 magic;
     public U2 minor_version;
     public U2 major_version;
@@ -24,8 +23,8 @@ public class ClassStructure{
     public U2 super_class;
     public U2 interfaces_count;
     public U2 interfaces[];
-    public U2 fields_count;
-    public FieldInfo fields[];
+    //public U2 fields_count;
+    //public FieldInfo fields[];
 
 
 
@@ -52,11 +51,12 @@ public class ClassStructure{
                 interfaces[i] = new U2(inputStream);
             }
         }
-        fields_count = new U2(inputStream);
-        fields = new FieldInfo[fields_count.getShortS()];
+        /*fields_count = new U2(inputStream);
+        fields = new FieldInfo[fields_count.getShortS()];*/
     }
 
     //初始化常量池相关的三个方法
+
     public CP_InfoAbstract initConstantool(InputStream inputStream, String path, long skipNum) throws Exception {
         CP_InfoAbstract cp_infoAbstract;
         InputStream newStream = new FileInputStream(path);
@@ -198,11 +198,47 @@ public class ClassStructure{
             result.add(s);
         }
         //可再次添加标号逻辑
+
+        int poolCount = constant_pool.length;
         for(CP_InfoAbstract c : constant_pool){
-            for(String cp : c.printStringAttr()){
-                result.add(cp);
+            if(!(c == null)){
+                for(String cp : c.printStringAttr()){
+                    result.add(cp);
+                }
             }
         }
+
+        for(String s: access_flags.DataCellStringAttr()){
+            result.add(s);
+        }
+        for(String s: this_class.DataCellStringAttr()){
+            result.add(s);
+        }
+        for(String s: super_class.DataCellStringAttr()){
+            result.add(s);
+        }
+        for(String s: interfaces_count.DataCellStringAttr()){
+            result.add(s);
+        }
+        /*
+        * 此时interfaces数组为null,故不能用interfaces.length来判断，interfaces.length反射操作报空指针异常。
+        * */
+        if(interfaces_count.getShortS() > 0){
+            for(U2 u : interfaces){
+                for(String ifaces : u.DataCellStringAttr()){
+                    result.add(ifaces);
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
         return result;
     }
 
