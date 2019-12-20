@@ -48,6 +48,13 @@ public class Utf8Info extends CP_InfoAbstract {
         return tempList;
     }
 
+    public String getUtfInfo(){
+
+
+        return "";
+    }
+
+
     public U2 getLength() {
         return length;
     }
