@@ -10,7 +10,7 @@ import java.util.List;
 public class SourcefileInfo extends AttributeAbstract {
     public U2 sourcefileIndex;
     public SourcefileInfo(InputStream inputStream) throws Exception {
-        this.attributeNameIndex = new U2(inputStream);
+        //this.attributeNameIndex = new U2(inputStream);
         this.attributeLength = new U4(inputStream);
         this.sourcefileIndex = new U2(inputStream);
     }

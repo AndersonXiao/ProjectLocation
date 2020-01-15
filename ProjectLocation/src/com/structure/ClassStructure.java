@@ -23,8 +23,11 @@ public class ClassStructure{
     public U2 super_class;
     public U2 interfaces_count;
     public U2 interfaces[];
-    //public U2 fields_count;
-    //public FieldInfo fields[];
+    public U2 fields_count;
+    public FieldInfo fields[];
+
+
+
 
 
 
@@ -59,8 +62,21 @@ public class ClassStructure{
                 interfaces[i] = new U2(inputStream);
             }
         }
-        /*fields_count = new U2(inputStream);
-        fields = new FieldInfo[fields_count.getShortS()];*/
+        fields_count = new U2(inputStream);
+        if(!(fields_count.getShortS() == 0)){
+            fields = new FieldInfo[fields_count.getShortS()];
+            for(int i=0;i<fields.length;i++){
+                fields[i] = new FieldInfo(inputStream,constant_pool);
+            }
+
+        }
+
+
+
+
+
+
+
     }
 
     //初始化常量池相关的三个方法
@@ -238,13 +254,6 @@ public class ClassStructure{
                 }
             }
         }
-
-
-
-
-
-
-
 
 
         return result;

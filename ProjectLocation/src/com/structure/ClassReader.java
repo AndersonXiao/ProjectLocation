@@ -24,7 +24,6 @@ public class ClassReader {
         String printOutPath = "D:\\IdeaOut.txt";
         PrintStream printOut = new PrintStream(printOutPath);//新建一个打印对象
         System.setOut(printOut);
-
         PrintStream printStream = System.out;//恢复默认，输出到控制台。
         System.setOut(printStream);
 
@@ -39,13 +38,10 @@ public class ClassReader {
         ClassReader classReader = new ClassReader(inputStream);
         classReader.readClassFile(classReader.classStructure);
 
-
-
     }
     @TestA
     public void String(){
-
-        System.out.println("我特么草泥马");
+        System.out.println("预约火车票比约女生难多了");
     }
 
 

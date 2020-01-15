@@ -5,11 +5,11 @@ import com.basic.U4;
 
 import java.util.List;
 
-public  class AttributeAbstract {
+public abstract class AttributeAbstract {
     public U2 attributeNameIndex;
     public U4 attributeLength;
-    public  List<String> printStringAttr(){
 
+    public List<String> printStringAttr() {
         return null;
     }
 }

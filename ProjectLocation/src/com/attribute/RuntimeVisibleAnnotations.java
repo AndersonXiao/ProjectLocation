@@ -12,7 +12,7 @@ public class RuntimeVisibleAnnotations extends AttributeAbstract {
     public U2 numAnnotation;
     public Annotation[] annotations;
     public RuntimeVisibleAnnotations(InputStream inputStream) throws Exception {
-        this.attributeNameIndex = new U2(inputStream);
+        //this.attributeNameIndex = new U2(inputStream);
         this.attributeLength = new U4(inputStream);
         numAnnotation = new U2(inputStream);
         annotations = new Annotation[numAnnotation.getShortS()];

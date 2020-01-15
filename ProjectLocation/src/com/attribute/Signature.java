@@ -9,7 +9,7 @@ import java.util.List;
 public class Signature extends AttributeAbstract {
     public U2 signatureIndex;
     public Signature(InputStream inputStream) throws Exception {
-        this.attributeNameIndex = new U2(inputStream);
+        //this.attributeNameIndex = new U2(inputStream);
         //The value of the attribute_length item of a Signature_attribute structure must be two.
         this.attributeLength = new U4(inputStream);
         this.signatureIndex = new U2(inputStream);

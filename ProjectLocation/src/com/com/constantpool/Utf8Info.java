@@ -48,10 +48,14 @@ public class Utf8Info extends CP_InfoAbstract {
         return tempList;
     }
 
-    public String getUtfInfo(){
-
-
-        return "";
+    public String getUtfStringInfo(){
+        U1[] ubytes = this.getBytes();
+        byte[] resultBytes = new byte[this.getBytes().length];
+        for(int i=0;i<ubytes.length;i++){
+            resultBytes[i] = ubytes[i].getByteB();
+        }
+        String resultStr = new String(resultBytes);
+        return resultStr;
     }
 
 
