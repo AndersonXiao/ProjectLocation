@@ -1,5 +1,8 @@
 package com.xzc.Binary;
 
+/**
+ * 将byte,char,int,long类型的数据转换成模拟二进制类型（String形式）
+ */
 public class BinaryGenerate {
     private byte byteParam;
     private char charParam;

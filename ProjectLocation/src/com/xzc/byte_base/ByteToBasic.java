@@ -1,5 +1,8 @@
 package com.xzc.byte_base;
 
+/**
+ * 将bytes数组转换成char,int,short,long类型
+ */
 public class ByteToBasic {
 
     public char bytesToChar(byte[] bytes){

@@ -9,46 +9,35 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e41c8cad-aedd-49ba-a674-6d29d42ffb23" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e41c8cad-aedd-49ba-a674-6d29d42ffb23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectLocation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/structure/ClassReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/structure/ClassReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/util/ClassExploreUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/ClassExploreUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xzc/Binary/BinaryGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xzc/Binary/BinaryGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xzc/byte_base/ByteToBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xzc/byte_base/ByteToBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xzc/test/BinaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xzc/test/BinaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/AndroidMobilePhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/FirstProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/InvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/MobilePhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/MyInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicproxy/proxyCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/IOTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="209" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/annotation/AnnotationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,142 +48,20 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>int</find>
-      <find>Utf8Info</find>
-      <find>getPoolInfoLength</find>
-      <find>setDataLength</find>
-      <find>getInstance</find>
-      <find>newInstance</find>
-      <find>checkNewProxyPermission</find>
-      <find>class</find>
-      <find>URLClassLoader</find>
-      <find>MobilePhone.class</find>
-      <find>InvocationHandler</find>
-      <find>private</find>
-      <find>classInfo</find>
-      <find>ih</find>
-      <find>sourcePath</find>
-      <find>NewInstance</find>
-      <find>equals</find>
-      <find>constructorParams</find>
-      <find>ProxyClassFactory</find>
-      <find>proxyClassCache</find>
-      <find>generateClassFile</find>
-      <find>newProxyInstance</find>
-      <find>generateProxyClass</find>
-      <find>inter</find>
-      <find>cl.getConstructor</find>
-      <find>getProxyClass0</find>
-      <find>subKeyFactory.apply</find>
-      <find>loader</find>
-      <find>invoke</find>
-      <find>hander</find>
-    </findStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/attribute/Signature.java" />
-        <option value="$PROJECT_DIR$/src/com/basic/dataCellPrint.java" />
-        <option value="$PROJECT_DIR$/src/com/basic/U1.java" />
-        <option value="$PROJECT_DIR$/src/com/basic/MyInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/MobileProxy.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/proxyCompiler.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/MobilePhone.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/AndroidMobilePhone.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/InvocationHandler.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/service.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/ServiceProxy.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/Service.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/PersonDao.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/PersonDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceProxy.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/Client.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/ClassInfoProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/com/constantpool/ClassInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/com/constantpool/CP_InfoAbstract.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/Service.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceD.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceA.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceB.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceC.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceAProxy.java" />
-        <option value="$PROJECT_DIR$/src/xzcdynamic/ServiceDynamic.java" />
-        <option value="$PROJECT_DIR$/ServiceAProxy.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/FirstProxy.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/PersonHandler.java" />
-        <option value="$PROJECT_DIR$/src/testdynamic/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/dynamicproxy/MyInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/field/FieldInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/attribute/SourcefileInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/attribute/FieldAnnotations.java" />
-        <option value="$PROJECT_DIR$/src/com/attribute/RuntimeVisibleAnnotations.java" />
-        <option value="$PROJECT_DIR$/src/com/annotation/ElementValue.java" />
-        <option value="$PROJECT_DIR$/src/com/annotation/ElementValueTag.java" />
-        <option value="$PROJECT_DIR$/src/com/annotation/EnumConstValue.java" />
-        <option value="$PROJECT_DIR$/src/com/annotation/Union.java" />
-        <option value="$PROJECT_DIR$/src/com/annotation/ElementValuePairs.java" />
-        <option value="$PROJECT_DIR$/src/com/annotation/Annotation.java" />
-        <option value="$PROJECT_DIR$/src/annotation/SubAnnotationTest.java" />
-        <option value="$PROJECT_DIR$/src/annotation/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/annotation/TestA.java" />
-        <option value="$PROJECT_DIR$/src/annotation/AnnotationTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1400" />
-    <option name="height" value="785" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ClassExplore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectLocation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClassExplore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectLocation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClassExplore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectLocation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClassExplore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1meJ9xussKzJQyMSJlkTL2t7CpK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring-boot-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../RipedLife/esp-ripedlife" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -208,25 +75,26 @@
       <recent name="D:\专业软件\IDEA\idea\ProjectLocation\src\com\basic" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MainTest (2)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xzcdynamic.Client" />
+  <component name="RunManager" selected="Application.ClassReader">
+    <configuration name="BinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xzc.test.BinaryTest" />
       <module name="ProjectLocation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xzcdynamic.*" />
+          <option name="PATTERN" value="com.xzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.structure.ClassReader" />
+      <module name="ProjectLocation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicproxy.TestMain" />
-      <module name="ProjectLocation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassReader" />
+        <item itemvalue="Application.BinaryTest" />
         <item itemvalue="Application.MainTest (2)" />
         <item itemvalue="Application.TestMain (1)" />
         <item itemvalue="Application.MainTest (1)" />
-        <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -361,337 +216,67 @@
       <workItem from="1575800696535" duration="599000" />
       <workItem from="1575854475841" duration="20082000" />
       <workItem from="1576053926741" duration="710000" />
+      <workItem from="1609847976838" duration="23804000" />
+      <workItem from="1610331496452" duration="15510000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398979000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.042432815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27864215" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.042432815" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.11739746" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="415" height="466" key="DebuggerActiveHint" timestamp="1610362300260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="415" height="466" key="DebuggerActiveHint/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362300260" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609903186378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1609903186378" />
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1610362598614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362598614" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1610362598613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.center/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362598613" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1610362598613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.left/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362598613" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1610362598614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.right/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362598614" />
+    <state width="1493" height="183" key="GridCell.Tab.1.bottom" timestamp="1610362353398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.1.bottom/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362353398" />
+    <state width="1493" height="183" key="GridCell.Tab.1.center" timestamp="1610362353398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.1.center/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362353398" />
+    <state width="1493" height="183" key="GridCell.Tab.1.left" timestamp="1610362353398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.1.left/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362353398" />
+    <state width="1493" height="183" key="GridCell.Tab.1.right" timestamp="1610362353398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.1.right/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610362353398" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1610354231343">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610354231343" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ClassExplore$ClassReader.ic" NAME="ClassReader Coverage Results" MODIFIED="1571389589766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.structure.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/ClassExplore$TestMain.ic" NAME="TestMain Coverage Results" MODIFIED="1574303676351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dynamicproxy.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dynamicproxy/AndroidMobilePhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1655">
-          <caret line="245" column="32" selection-start-line="245" selection-start-column="32" selection-end-line="245" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/ServiceD.java" />
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/ServiceC.java" />
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/ServiceB.java" />
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/ServiceA.java" />
-    <entry file="file://$PROJECT_DIR$/ServiceAProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/Service.java" />
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/ServiceDynamic.java" />
-    <entry file="file://$PROJECT_DIR$/src/dynamicproxy/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicproxy/MobilePhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1752">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdynamic/PersonDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/testdynamic/PersonDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/testdynamic/ClassInfoProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/dynamicproxy/FirstProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1821" column="26" selection-start-line="1821" selection-start-column="26" selection-end-line="1821" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../myJar/jar_files/javapoet-1.11.1.jar!/com/squareup/javapoet/MethodSpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
-          <folding>
-            <element signature="e#5922#5923#0" expanded="true" />
-            <element signature="e#5977#5978#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicproxy/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicproxy/MyInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdynamic/PersonHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/testdynamic/TestMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/attribute/SourcefileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/attribute/AttributeAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/attribute/InnerClassesInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/attribute/ElementValue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/attribute/FieldAnnotations.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/field/FieldInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/MainTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/xzcdynamic/ServiceAProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/attribute/RuntimeVisibleAnnotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/schemagen/xmlschema/Union.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/ArrayValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/EnumConstValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/Union.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/ElementValueTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/com/constantpool/FieldrefInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/com/constantpool/ClassInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/com/constantpool/ConstantPoolRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/structure/ClassStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/structure/ClassReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/ElementValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/annotation/ElementValuePairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/com/constantpool/IntegerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/TestA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/SubAnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/AnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/ClassExplore$ClassReader.ic" NAME="ClassReader Coverage Results" MODIFIED="1610358065378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.structure.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
